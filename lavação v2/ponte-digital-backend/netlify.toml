@@ -1,0 +1,11 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+# Roda o Motor de Oportunidades a cada 3 horas, das 8h às 20h (horário do servidor, UTC).
+# Ajuste a expressão cron conforme o fuso e a frequência que fizer sentido pro negócio.
+[functions."rodar-motor-oportunidades"]
+  schedule = "0 */3 * * *"

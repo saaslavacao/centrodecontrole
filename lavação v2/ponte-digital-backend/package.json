@@ -1,0 +1,10 @@
+{
+  "name": "centro-de-controle-ponte-digital",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Centro de Controle Inteligente Ponte Digital — services e Netlify Functions.",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0"
+  }
+}
